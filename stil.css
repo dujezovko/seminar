@@ -1,0 +1,280 @@
+body{
+	color: #000000;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+	font-size: 0px;
+	
+}
+section{
+	border: 1px solid #75B2E4;
+	height: 650px;
+	width:768px;
+	padding-left: 230px;
+}
+article{
+	color: #fff;
+	font-size: 19.5px;
+	align-content: center;
+	text-align: justify;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+article  ul{
+	text-align: justify;
+	list-style-type: none;
+	margin-left:100px;
+}
+article a{
+	color:#FFF;
+}
+article a:hover{
+	background:#FFF;
+	color:#75B2E4;
+	font-weight: bolder;
+}
+
+footer{
+
+	width:1000px;
+	height: 150px;
+	border-bottom-left-radius: 100px 50px;
+	border-bottom-right-radius: 100px 50px;
+	background-color: #1F81DC;
+	box-shadow: #1F81DC 2px 5px 20px 0;
+	border-top: 1px solid #1F81DC;
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+	font-size:20px;
+	color: #FFF;
+	text-align:center;
+	margin: auto;
+	padding-top:65px;
+	
+
+}
+footer a{
+	color: #fff;
+}
+
+
+h1{
+	font-size: 30px;
+	text-align: left;
+	color:#024788;
+
+}
+.slika1 {
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-top: 10px;
+	width:450px;
+	height: 300px;
+	
+}
+.slika2 {
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-top: 10px;
+	width:450px;
+	height: 300px;
+}
+.slika3{
+	width:250px;
+	height: 190px;
+	float: left;
+}
+.slika4{
+	width:250px;
+	height: 190px;
+	float: right;
+}
+.slika5{
+	width: 600px;
+	height: 300px;
+	align-content: center;
+	
+}
+.slika6{
+	margin-left: 200px;
+	padding-top: 10px;
+	width:300px;
+	height: 200px;
+}
+.literatura a:hover{
+	background:#FFF;
+	color:#75B2E4;
+	font-weight: bolder;
+}
+.sadrzaj a:hover{
+	background:#FFF;
+	color:#75B2E4;
+	font-weight: bolder;
+}
+.sadrzaj li{
+	list-style-type:disc;
+}
+.start{
+	padding-right: 100px;
+	float: right;
+	width:250px;
+	height: 250px;
+}
+
+table th{
+	text-align: center;
+	background: #024788;
+}
+table td{
+	border: 2px solid #024788;
+	padding: 4px 8px;
+}
+table .naslov{
+	text-align: center;
+}
+table{
+	text-align: center;
+}
+
+
+
+#wrapper{
+	width: 1000px;
+	margin: auto;
+	background: #75B2E4;
+	border-top-left-radius: 120px 60px;
+	border-top-right-radius: 120px 60px;
+	border-bottom-left-radius: 120px 60px;
+	border-bottom-right-radius: 120px 60px;
+	align-content: center;
+
+}
+
+header{
+	heigth: 150px;
+	width: 100%;
+	background-color: #1F81DC;
+	border-top-left-radius: 100px 50px;
+	border-top-right-radius: 100px 50px;
+	box-shadow: #1F81DC 2px 5px 20px 0px;
+	display: block;
+	text-align: center;
+}
+
+#horizontalna{
+	background:#1F81DC;
+	width: 996px;
+	height:50px;
+	text-align: right;
+	border: 2px solid #006393;
+	box-shadow: #1F81DC 2px 5px 20px 0px;
+	
+}
+
+#horizontalna ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	
+	
+}
+#horizontalna li{
+	display: inline-block;
+	margin: 0 25px;
+	padding-top:25px;
+	position: relative;
+	
+}
+#horizontalna a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	
+	font-size: 20px;
+}
+#horizontalna a:hover{
+	color:#024788 ;
+	
+}
+#horizontalna a::before{
+	content: "";
+	display: block;
+	height: 5px;
+	background: #fff;
+	position: absolute;
+	top: 0;
+	width: 0%;
+	transition: all ease-in-out 150ms;
+}
+#horizontalna a:hover::before{
+	width:100%;
+	
+}
+
+.vertikalna{
+	width:250px;
+	height:650px;
+	background:#024788;
+	font-size: 16px;
+	float: left;
+}
+.vertikalna ul,li {
+	padding:0;
+	margin: 0;
+}
+.vertikalna a{
+	text-decoration: none;
+	display: block;
+	
+	padding: 10px 0 10px 20px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	
+}
+.vertikalna a:hover{
+	background: #FFF;
+	color:#024788 ;
+	
+}
+.vertikalna li{
+	list-style-type: none;
+	position: relative;
+	border: 1px dotted white;
+	margin-top: -1px;
+}
+.vertikalna li li{
+	list-style: none;
+	position: relative;
+}
+.vertikalna ul{
+	line-height: 30px;
+}
+.vertikalna  ul ul {
+	display: none;
+}
+.vertikalna  ul:hover ul{
+	display:block;
+}
+
+
+
+
+.vertikalna .strelice::after{
+	content: '\203A';
+	float: right;
+	margin-right: 20px;
+	transform: rotate(90deg);
+	moz-transform: rotate(90deg);
+	
+}
+
+.vertikalna li:hover .strelice::after{
+	content: '\2039';
+}
+.vertikalna ul ul a:before{
+	content: '\203A';
+	margin-right: 10px;
+}
+
+.naslov {
+}
